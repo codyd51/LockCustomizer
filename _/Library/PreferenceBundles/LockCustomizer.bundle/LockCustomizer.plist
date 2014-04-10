@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>LockCustomizer</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.phillipt.lockcustomizer</string>
+			<key>PostNotification</key>
+			<string>com.phillipt.lockcustomizer/preferencechanged</string>
+			<key>key</key>
+			<string>isEnabled</string>
+			<key>label</key>
+			<string>Enabled</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Slide to Unlock</string>
+			<key>footerText</key>
+			<string>leave blank for default</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.phillipt.lockcustomizer</string>
+			<key>PostNotification</key>
+			<string>com.phillipt.lockcustomizer/preferencechanged</string>
+			<key>key</key>
+			<string>hideSlide</string>
+			<key>label</key>
+			<string>Hide Slide to Unlock</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSEditTextCell</string>
+			<key>detail</key>
+			<string>PSDetailController</string>
+			<key>defaults</key>
+			<string>com.phillipt.lockcustomizer</string>
+			<key>PostNotification</key>
+			<string>com.phillipt.lockcustomizer/preferencechanged</string>
+			<key>key</key>
+			<string>customSlideText</string>
+			<key>label</key>
+			<string>STU text:</string>
+			<key>placeholder</key>
+			<string>slide to unlock</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Legal Text</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.phillipt.lockcustomizer</string>
+			<key>PostNotification</key>
+			<string>com.phillipt.lockcustomizer/preferencechanged</string>
+			<key>key</key>
+			<string>legalText</string>
+			<key>label</key>
+			<string>Use Legal Text</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSEditTextCell</string>
+			<key>detail</key>
+			<string>PSDetailController</string>
+			<key>defaults</key>
+			<string>com.phillipt.lockcustomizer</string>
+			<key>PostNotification</key>
+			<string>com.phillipt.lockcustomizer/preferencechanged</string>
+			<key>key</key>
+			<string>customLegalText</string>
+			<key>label</key>
+			<string>Legal text:</string>
+			<key>placeholder</key>
+			<string> </string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Miscellaneous</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.phillipt.lockccustomizer</string>
+			<key>PostNotification</key>
+			<string>com.phillipt.lockcustomizer/preferencechanged</string>
+			<key>key</key>
+			<string>hideArrow</string>
+			<key>label</key>
+			<string>Hide Arrow</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.phillipt.lockcustomizer</string>
+			<key>PostNotification</key>
+			<string>com.phillipt.lockcustomizer/preferencechanged</string>
+			<key>key</key>
+			<string>hideDate</string>
+			<key>label</key>
+			<string>Hide Date</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.phillipt.lockcustomizer</string>
+			<key>PostNotification</key>
+			<string>com.phillipt.lockcustomizer/preferencechanged</string>
+			<key>key</key>
+			<string>hideTimeAndDate</string>
+			<key>label</key>
+			<string>Hide Time and Date</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>LockCustomizer © 2014 Phillip Tennen</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>LockCustomizer</string>
+</dict>
+</plist>

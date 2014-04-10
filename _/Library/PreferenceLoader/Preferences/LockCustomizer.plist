@@ -1,0 +1,10 @@
+{
+    entry = {
+	bundle = LockCustomizer;
+	cell = PSLinkCell;
+	detail = LockCustomizerListController;
+	icon = LockCustomizer.png;
+	isController = 1;
+	label = LockCustomizer;
+    };
+}
